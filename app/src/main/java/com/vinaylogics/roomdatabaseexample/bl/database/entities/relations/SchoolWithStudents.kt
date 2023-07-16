@@ -5,7 +5,7 @@ import androidx.room.Relation
 import com.vinaylogics.roomdatabaseexample.bl.database.entities.School
 import com.vinaylogics.roomdatabaseexample.bl.database.entities.Student
 
-data class SchoolWithStudent(
+data class SchoolWithStudents(
   @Embedded val school: School,
   @Relation(
       parentColumn = "schoolName",
